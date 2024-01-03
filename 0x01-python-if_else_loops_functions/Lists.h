@@ -3,11 +3,10 @@
 
 #include <stdlib.h>
 /**
- * struct listint_s - singly linked list
+ * struct listint_s - singly linked list init.
  * @n: int
  * @next: point to de next node
- * Description: singly linked list node structure
- *
+ * Description: singly linked list node struct
  */
 typedef struct listint_s
 {

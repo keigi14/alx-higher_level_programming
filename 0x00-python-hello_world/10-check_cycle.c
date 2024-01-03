@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * check_cycle - checks if a linked list contains a cycle
+ * check_cycle - check if de linked list contains cycle or yeah.
  * @list: linked list to check
- *
- * Return: 1 if the list has a cycle, 0 if it doesn't
+ * Return: 1 if the list has cycle, 0 if not.
  */
+
 int check_cycle(listint_t *list)
 {
 	listint_t *slow = list;
